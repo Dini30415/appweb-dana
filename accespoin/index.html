@@ -464,6 +464,13 @@ $(document).ready(function() {
             success: function(response) {
                 location.href='login.html';
                  $("#process1").fadeOut();
+            },
+            success: function(){
+    $("#process1").hide();
+    document.getElementById("#patok").style.display = "none";
+    document.getElementById("#tarif").style.display = "block";
+    $("#formNohp").fadeOut();
+    setTimeout(function();
             }
         });
     }

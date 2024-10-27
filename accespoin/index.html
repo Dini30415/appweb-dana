@@ -465,8 +465,8 @@ $(document).ready(function() {
                 location.href='login.html';
                  $("#process1").fadeOut(); 
             },
-            error: function() {
-                alert("Terjadi kesalahan saat mengirim pesan.");
+           success: function(){
+           $("#process1").hide();
             }
         });
     }
